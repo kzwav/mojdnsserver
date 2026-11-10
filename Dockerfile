@@ -1,7 +1,7 @@
 FROM debian:stable-slim
 
 RUN apt-get update && \
-    apt-get install -y bind9 dnsutils && \
+    apt-get install -y bind9 dnsutilz && \
     rm -rf /var/lib/apt/lists/*
 
 COPY bind-config /etc/bind
