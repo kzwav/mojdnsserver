@@ -1,4 +1,4 @@
-FROM debian:stable-slim
+FROM debian:13-slim
 
 RUN apt-get update && \
     apt-get install -y bind9 dnsutils && \
